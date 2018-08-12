@@ -1,8 +1,11 @@
 {
-  "name": "testing",
+  "name": "Ismail",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@appbaseio/reactivesearch": "^2.6.8",
+    "knex": "^0.15.2",
+    "pg": "^7.4.3",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-scripts": "1.1.4"
