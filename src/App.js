@@ -66,23 +66,28 @@ class App extends Component {
               </div>
             <div className="search-container">
             <DataSearch
+              autosuggest={true}
               componentId="search"
               dataField={[
                 'title',
                 'title.autosuggest',
                 'title.keyword'
               ]}
-              fieldWeights={[2,  1, 2]}
-              highlight={false}
+              fieldWeights={[
+                2,
+                1,
+                2
+              ]}
               highlightField={[
                 'title'
               ]}
               queryFormat="and"
+              size="1000"
               style={{
-                marginBottom: 10
+                marginBottom: 20
               }}
             />
-           </div>
+             </div>
         </div>
           <div className="sub-container">
             <div
@@ -130,7 +135,7 @@ class App extends Component {
                   <i className="fa fa-language" /> Languages{" "}
                 </b>
               </div>
-            
+
               <MultiList
                 componentId="list-2"
                 dataField="language.keyword"
