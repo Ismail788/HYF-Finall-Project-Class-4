@@ -173,7 +173,7 @@ class App extends Component {
 
               <div className="result-item">
                 <ResultCard
-                  componentId="results"
+                  componentId="result"
                   dataField="titles"
                   title="Results"
                   from={0}
