@@ -1,13 +1,16 @@
 const express = require('express');
 const path = require('path');
-const favicon = require('serve-favicon');
+//const favicon = require('serve-favicon');
 const logger = require('morgan');
 const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
 
+//const fixtures = require('./fixtures');
 const app = express();
 
-const songs = require('./api/songs');
+const songs = require('./api/record');
+//const records = require('./api/record');
+
 // view engine setup
 
 // uncomment after placing your favicon in /public
@@ -17,11 +20,12 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 
-app.use('/api/v1/songs', songs);
+app.use('/api/v1/record', songs);
+//app.use('/api/v2/records', records);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
-  var err = new Error('Not Found');
+  const err = new Error('Not Found');
   err.status = 404;
   next(err);
 });
