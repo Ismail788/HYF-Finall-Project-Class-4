@@ -14,6 +14,7 @@ const fixtures =
     "location": "",
     "physical": "Vinyl Record",
     "catNo": "AKB.3017",
+    "url": "https://s3.eu-central-1.amazonaws.com/hyf-african-music-class04/snippets/GhettoBlaster_LifeGoesOnR1458.mp3",
     "barcode": null,
     "tracks": null,
     "all": null,

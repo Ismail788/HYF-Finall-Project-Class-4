@@ -42,7 +42,7 @@ it('Show one record by id', (done)=>{
 });
 it('Show one record by id', (done)=>{
   request(app)
-  .get('../api/v1/record/5')
+  .get('../api/v1/recod/5')
   .set('Accept', 'application/json')
   .expect('Content-Type', /json/)
   .expect(200)

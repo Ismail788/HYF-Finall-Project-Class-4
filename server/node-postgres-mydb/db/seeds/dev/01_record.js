@@ -21,7 +21,8 @@ exports.seed = function(knex, Promise) {
         'physical': record.physical,
         'catNo': record.catNo,
         'barcode':record.barcode,
-        'location': record.location
+        'location': record.location,
+        'url': record.url
       })
     });
       // Inserts seed entries

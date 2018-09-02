@@ -12,6 +12,7 @@
 		"location": "",
 		"physical": "Vinyl Record",
 		"catNo": "AKB.3017",
+		"url":"https://s3.eu-central-1.amazonaws.com/hyf-african-music-class04/snippets/GhettoBlaster_LifeGoesOnR1458.mp3",
 		"barcodes": [
 			"BB.57",
 			"BB.58"
@@ -43,6 +44,7 @@
 		"location": "",
 		"physical": "Vinyl Record",
 		"catNo": "AKB 1521",
+		"url":"https://s3.eu-central-1.amazonaws.com/hyf-african-music-class04/thumbnails/GhettoBlaster_People.png",
 		"barcodes": [
 			"BAK 41",
 			"BAK 42"
@@ -72,6 +74,7 @@
 		"location": "",
 		"physical": "Vinyl Record",
 		"catNo": "WA.107",
+		"url":"https://s3.eu-central-1.amazonaws.com/hyf-african-music-class04/snippets/KemayoKSystem_TamTamSongOnR1600.mp3",
 		"barcodes": [
 			"KWA.17",
 			"KWA.18"
@@ -101,6 +104,7 @@
 		"location": "",
 		"physical": "Vinyl Record",
 		"catNo": "WA.133",
+		"url":"https://s3.eu-central-1.amazonaws.com/hyf-african-music-class04/thumbnails/KemayoKSystem_TamTamSong+.png",
 		"barcodes": [
 			"KWA.69",
 			"KWA.70"
@@ -130,6 +134,7 @@
 		"location": "",
 		"physical": "Vinyl Record",
 		"catNo": "WA.119",
+		"url":"https://s3.eu-central-1.amazonaws.com/hyf-african-music-class04/snippets/MBamina_KilowiKilowiOnR1111.mp3",
 		"barcodes": [
 			"KWA.41",
 			"KWA.42"
@@ -159,6 +164,7 @@
 		"location": "",
 		"physical": "Vinyl Record",
 		"catNo": "WA.131",
+		"url":"https://s3.eu-central-1.amazonaws.com/hyf-african-music-class04/snippets/MBamina_KilowiKilowiOnR1111.mp3",
 		"barcodes": [
 			"KWA.65",
 			"KWA.66"
@@ -188,6 +194,7 @@
 		"location": "",
 		"physical": "Vinyl Record",
 		"catNo": "WA.102",
+		"url":"https://s3.console.aws.amazon.com/s3/object/hyf-african-music-class04/thumbnails/MBamina_Reflexion.png?region=us-east-2&tab=overview",
 		"barcodes": [
 			"KWA.7",
 			"KWA.8"
@@ -217,6 +224,7 @@
 		"location": "",
 		"physical": "Vinyl Record",
 		"catNo": "WA.132",
+		"url":"https://s3.eu-central-1.amazonaws.com/hyf-african-music-class04/snippets/PEPs_DiscoTrainOnR2660.mp3",
 		"barcodes": [
 			"KWA.67",
 			"KWA.68"

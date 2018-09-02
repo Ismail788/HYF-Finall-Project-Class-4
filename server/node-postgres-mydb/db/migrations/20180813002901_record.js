@@ -16,7 +16,8 @@ exports.up = function(knex, Promise) {
     table.string('barcode');
     table.string('tracks');
     table.string('all');
-    table.string('audio_simple_path');
+    table.string('url');
+
     table.timestamps(true, true);
 });
 };

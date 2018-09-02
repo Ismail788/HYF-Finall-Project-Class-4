@@ -10,6 +10,7 @@ exports.seed = function(knex, Promise) {
         songsList.push({
           'id': song.id,
           'title':song.title,
+          'url': song.url
           //'tracks':song.tracks,
           //'all':song.all
 
