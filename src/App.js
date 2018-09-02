@@ -26,7 +26,7 @@ class App extends Component {
 		})
 	}
 	OpenDetail = (title) => {
-		window.location.href = `/AlbumPreview/${title}`;
+		window.location.href = `/musicItem/${title}`;
 	}
 	render() {
 		const {
@@ -37,6 +37,7 @@ class App extends Component {
 		return ( < div className = "main-container" > < ReactiveBase app = "MyMusic"
 			credentials = "X7sZ3NQDt:ad866f29-f84d-4f5a-992a-8a5b9de85732"
 			url = "https://scalr.api.appbase.io"
+      //<ReactiveBase app='bands' type='_doc' url='https://amp.a-magdy.me'>
 			theme = {
 				{
 					typography: {
