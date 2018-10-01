@@ -10,19 +10,8 @@ import {
 	SelectedFilters,
 	ResultCard
 } from "@appbaseio/reactivesearch";
-import {
-  Route,
-  NavLink,
-  HashRouter
-} from "react-router-dom";
-import Home from './Components/Home';
-import PlayList from './Components/PlayList';
-import Audio from './Components/Audio';
-import Contact from './Components/Contact';
-import "./App.css";
-import './musicList/musicList';
-import './musicItem/musicItem';
-class App extends Component {
+
+class Audio extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
@@ -44,21 +33,8 @@ class App extends Component {
 		const dataField = filter === "all" ? ["title", "artist"] : filter;
 		const checkboxKey = ["all", "title", "artist"];
 		return (
-			  <HashRouter>< div className = "main-container" >
-		<ul className="header">
-		<li><NavLink exact to="/">Home</NavLink></li>
-		<li><NavLink to="/PlayList">PlayList</NavLink></li>
-		<li><NavLink to="/Contact">Contact</NavLink></li>
-		<li><NavLink to="/Audio">Audio</NavLink></li>
-		</ul>
-			 <h1>African Music Archive</h1>
-<div className="content">
-			<Route exact path="/" component={Home}/>
-			<Route path="/PlayList" component={PlayList}/>
-			<Route path="/contact" component={Contact}/>
-			<Route path="/Audio" component={Audio}/>
+			  < div className = "main-container" >
 
-		</div>
 		 < ReactiveBase app = "MyMusic"
 			credentials = "X7sZ3NQDt:ad866f29-f84d-4f5a-992a-8a5b9de85732"
 			url = "https://scalr.api.appbase.io"
@@ -79,10 +55,9 @@ class App extends Component {
 						borderColor: "#666"
 					}
 				}
-			} >
-			< div className = "navbar" >
-		
-			 < div className = "search-container" > < DataSearch autosuggest = {
+			} > < div className = "navbar" >
+       
+       < div className = "search-container" > < DataSearch autosuggest = {
 				true
 			}
 			componentId = "search"
@@ -219,9 +194,8 @@ class App extends Component {
 				}
 			}
 			/> < /div> < /div> < /div> < /ReactiveBase> < /div>
-		 </HashRouter>
 	 );
 
 	}
 }
-export default App;
+export default Audio;
