@@ -56,8 +56,9 @@ class Audio extends Component {
 					}
 				}
 			} > < div className = "navbar" >
-       
-       < div className = "search-container" > < DataSearch autosuggest = {
+
+       < div className = "search-container" >
+			 < DataSearch autosuggest = {
 				true
 			}
 			componentId = "search"
@@ -78,47 +79,21 @@ class Audio extends Component {
 			size = "1000"
 			style = {
 				{
-					marginBottom: 20
-				}
+				marginBottom: 20
+
 			}
-			/> < /div> < /div> < div className = "sub-container" > < div className = {
+
+			  }
+			/>
+			< /div>
+			< /div>
+			< div className = "sub-container" >
+			 < div className = {
 				this.state.isClicked ? "left-bar-optional" : "left-bar"
-			} > < hr className = "blue" / > < div className = "filter-heading center" > < b > < i className = "fa fa-star" / > Year < /b> < /div> < RangeSlider componentId = "yearfilter"
-			dataField = "year"
-			title = "Year"
-			filterLabel = "Year"
-			showHistogram = {
-				true
-			}
-			range = {
-				{
-					start: 1945,
-					end: 2018
-				}
-			}
-			rangeLabels = {
-				{
-					start: "1945",
-					end: "2018"
-				}
-			}
-			interval = {
-				1
-			}
-			react = {
-				{
-					and: ["searchbox"]
-				}
-			}
-			style = {
-				{
-					padding: "20px",
-					border: "20px",
-					marginTop: "20px",
-					background: "gray"
-				}
-			}
-			/> < hr className = "blue" / > < div className = "filter-heading center" > < b > {
+			} >
+
+			< hr className = "blue" / >
+			< div className = "filter-heading center" > < b > {
 				" "
 			} < i className = "fa fa-language" / > Languages {
 				" "
