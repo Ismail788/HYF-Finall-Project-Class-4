@@ -28,7 +28,7 @@ development: {
      user : 'postgres',
      port : '5432',
      password : '4545',
-     database : 'test_my_music'
+     database : 'my_music'
   },
      migrations: {
     directory: './db/migrations'

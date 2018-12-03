@@ -1,15 +1,10 @@
 body {
-  background-color: #0099ff;
+  background-color: #979ca0;
   padding: 10px;
   margin: 0;
 }
 h1, h2, p, ul, li {
   font-family: sans-serif;
-}
-.Home{
-  width: 33.33%;
-  display: flow-root;
-
 }
 h1{
   text-align: left;
@@ -20,42 +15,11 @@ ul.header li {
   margin: 10;
 }
 .container{
-  padding: 5px;
-
-}
-ul.header {
-  background-color: #111;
-  padding: 0;
-  margin-top: 0;
-
-}
-ul.header li a {
-  color: #FFF;
-  font-weight: bold;
-  text-decoration: none;
-  padding: 20px;
-  display: inline-block;
-  float: right;
-}
-.content {
-  background-color: #FFF;
-  padding: 40px;
-
-}
-.content h2 {
   padding: 10px;
-  margin: 10px;
-}
-.content li {
-  margin-bottom: 10px;
-}
-.active {
-  background-color: #111;
 
 }
-
 .main-container {
-  margin: 0 10px;
+  margin: 10 10px;
 }
 
 .sub-container {
@@ -84,37 +48,17 @@ hr {
 }
 
 /* styling for header */
-
-.navbar {
-  background-color: #333;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: flex-start;
-  padding-left: 0px;
-  padding-right: 0px;
-}
-
-.logo-container {
-  width: 50%;
-  margin-top: 1px;
-}
-
-.app-logo {
-  margin-left: 0px !important;
-  margin-top: 3px;
-}
-
 .search-container {
   width: 50%;
   margin-top: 30px;
+  
 
 }
 
 .search-bar {
   border: 2px solid #86ddf8;
   border-radius: 3px;
-  text-decoration-color: #eee;
+  text-decoration-color: rgb(7, 29, 128);
 }
 
 /* styling for left-sidebar */
@@ -151,17 +95,11 @@ hr {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-
-
-
-
-
 .datePicker {
   color: #000;
 }
-
 .list-item {
-  font-size: 13px;
+  font-size: 20px;
   color: #cdcdcd;
   margin-left: 2px;
 }
@@ -180,8 +118,8 @@ hr {
 .result-item {
   min-height: 315px;
   background-color: #212121 !important;
-  margin-right: 17px !important;
-  margin-bottom: 17px !important;
+  margin-right: 10px !important;
+  margin-bottom: 10px !important;
   padding: 0px !important;
 }
 
@@ -209,9 +147,8 @@ hr {
 }
 
 .time {
-  color: #86ddf8;
+  color: #d9e0e2;
 }
-
 .rating-time-score-container {
   display: flex;
   flex-direction: row;
@@ -219,15 +156,9 @@ hr {
   justify-content: space-between;
   align-items: center;
 }
-
-
-
-
 .result-container {
   width: 80%;
 }
-
-
 .language-data {
   text-align: center;
 }
@@ -273,7 +204,7 @@ hr {
   margin-top: 5px;
 }
 
-/* styling for overlay effect */
+/* styling for overlay effect the components */
 
 .overlay-title {
   color: #86ddf8 !important;
@@ -430,13 +361,12 @@ hr {
   border-left: 1px solid #666;
 }
 
-/* Responsive styling */
+/* Responsive for all iteme in main container*/
 @media (max-width: 768px) {
   .toggle-button {
     display: block;
   }
-
-  .left-bar-optional {
+.left-bar-optional {
     width: 85%;
     -ms-flex-direction: column;
     flex-direction: column;
@@ -459,39 +389,15 @@ hr {
     border-color: #333333 !important;
     border-radius: 3px !important;
   }
-
-  .navbar {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-  }
-
-
-  .search-container {
+.search-container {
     width: 100%;
-  }
-
-  .logo-container {
-    width: 100%;
-    margin-bottom: 10px;
-    text-align: center;
   }
 
   .result-container {
     width: 100%;
   }
 
-  .left-bar,
-  .result-container-optional {
-    display: none;
+
   }
 
-  .app-logo {
-    margin-top: 3px;
-    width: 30px;
-    height: 30px;
-  }
-}
+  
