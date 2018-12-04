@@ -28,11 +28,8 @@ class App extends Component {
   }
 
     render() {
-     // const { filter} = this.state;
-
-   
-
-    return (
+     //const { filters} = this.state;
+     return (
       <div className="main-container">
       <ReactiveBase
         app="MyMusic"
@@ -56,7 +53,8 @@ class App extends Component {
           }}
         >
            
-            <div className="search-container">
+            <div className="search-container"> 
+            <h1>African Music Archive</h1>
             <DataSearch
               componentId="search"
               dataField={[
@@ -73,10 +71,10 @@ class App extends Component {
               style={{
                 marginBottom: 10
               }}
-            />
+         />
            </div>
         
-          <div className="sub-container">
+             <div className="sub-container">
             <div
               className={
                 this.state.isClicked ? "left-bar-optional" : "left-bar"

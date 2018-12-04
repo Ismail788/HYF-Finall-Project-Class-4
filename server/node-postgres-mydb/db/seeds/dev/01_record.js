@@ -6,6 +6,7 @@ exports.seed = function(knex, Promise) {
   return knex('record').del()
     .then(function () {
       const recordsList =[];
+      
     records.map(record=> {
     recordsList.push({
         'id': record.id,
